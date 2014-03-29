@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jszip - 在线压缩 javascript 代码</title>
+    </head>
+    <body>
+        <h1>jszip</h1>
+        <h5 style="color:#999;">这是一个基于 node.js 运行的网站，使用 uglify-js 对代码进行压缩，也是我学习 node.js 的一个小练习 - <i>AbelYao @ 2014</i></h5>
+        <form action="/" method="post">
+            <h4><%= title %>：</h4>
+            <P><textarea name="code" style="width:75%;height:300px;font-family:monospace;"><%- code %></textarea></P>
+            <p><input type="submit" value="压缩代码" style="font-size:2em;"></p>
+        </form>
+        <h6>GitHub: <a href="https://github.com/abelyao/jszip" target="_blank">https://github.com/abelyao/jszip</a></h6>
+    </body>
+</html>
